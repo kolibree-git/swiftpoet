@@ -37,6 +37,7 @@ enum class Modifier(
   OVERRIDE("override", Target.FUNCTION, Target.PROPERTY),
 
   REQUIRED("required", Target.FUNCTION),
+  CONVENIENCE("convenience", Target.FUNCTION),
 
   INOUT("inout", Target.PARAMETER);
 
